@@ -1,0 +1,7 @@
+fontawesome2png:
+  image: anthonykgross/docker-fontawesome2png:latest
+  volumes:
+    - ./src:/src
+  environment:
+   COLOR: '#FF0000'
+   SIZE: '32'
