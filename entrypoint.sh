@@ -14,6 +14,8 @@ run() {
     icon-font-to-png --css font-awesome.css --ttf fontawesome-webfont.ttf --color $COLOR --size $SIZE ALL
     rm font-awesome.css
     rm fontawesome-webfont.ttf
+    cp exported/* . -Rf
+    rm -Rf exported
 }
 
 case "$1" in
