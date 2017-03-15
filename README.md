@@ -3,7 +3,7 @@
 # What is anthonykgross/docker-fontawesome2png ?
 Download the latest version of FontAwesome and convert Icons to PNG. 
 
-##Prerequisites
+## Prerequisites
 Add your user to docker group to be able to use it with non root user: 
 ```console
 $ sudo usermod -aG docker username
